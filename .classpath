@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="build/resources/test" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="resource" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/test" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/resources/main" path="src/main/resources">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="resource" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/main" path="src/main/java">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/test" path="build/generated/sources/annotationProcessor/java/test">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/main" path="build/generated/sources/annotationProcessor/java/main">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-javalite/3.18.0/64c4b01f6db9e66dcce7ce320f8fdc21eda757c7/protobuf-javalite-3.18.0.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-javalite/3.18.0/bbd1e3c568d7348551a01fd31fd4af2a184d51d3/protobuf-javalite-3.18.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1d064e61aad6c51cc77f9b59dc2cccc78e792f5a/failureaccess-1.0.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.12.5/ee23704259a1aad5c8f503db4d37cdfe5352e766/micrometer-observation-1.12.5.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.12.5/c3b23e9bdfbba3c72bf32cf096d363e6afe5db1a/micrometer-observation-1.12.5-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.15.4/e654497a08359db2521b69b5f710e00836915d8c/jackson-module-parameter-names-2.15.4.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.15.4/4c1d3cc9f6a69cbb03d3517085c92172ddb5fbd3/jackson-module-parameter-names-2.15.4-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.4.14/4d3c2248219ac0effeb380ed4c5280a80bf395e8/logback-core-1.4.14.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.4.14/7d9dcce57ba091e1e4b4793b244508ea28f52b48/logback-core-1.4.14-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15to18/1.69/bf2bf57dad9a17f1fadf8db38894e780d1532f1a/bcprov-jdk15to18-1.69.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15to18/1.69/b4c8b97f4fc74fea5c7743cabb967581337f54c4/bcprov-jdk15to18-1.69-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/10.1.20/ba0dc784e12086f83d8e1d5a10443b166abf5780/tomcat-embed-core-10.1.20.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/10.1.20/791de1637ad568bf9b95755749766defb4385b0/tomcat-embed-core-10.1.20-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.15.4/7de629770a4559db57128d35ccae7d2fddd35db3/jackson-datatype-jsr310-2.15.4.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.15.4/374791e1cb74eff66f761325affac3b3b2c8a1a1/jackson-datatype-jsr310-2.15.4-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.9.23/b8eca9abec56bee1d01c788e3d571114416ea56d/kotlin-stdlib-jdk7-1.9.23.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.9.23/19a55005faf474d4021b61d617693e462c17aa54/kotlin-stdlib-jdk7-1.9.23-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio-jvm/3.6.0/5600569133b7bdefe1daf9ec7f4abeb6d13e1786/okio-jvm-3.6.0.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio-jvm/3.6.0/5b1761b9f5cd934db274cf972582e3dd6b267272/okio-jvm-3.6.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/d26c56180205cbb50447c3eca98ecb617cf9f58b/j2objc-annotations-1.3-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/6.1.6/4958f52cb9fcb3adf7e836304550de5431a9347e/spring-aop-6.1.6.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/6.1.6/8e37125a73fcc20f30546df89cc614a0e01e78d8/spring-aop-6.1.6-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.16.1/ceede45f0b97575e1f9c54b54726d2fb8cb84d27/bitcoinj-core-0.16.1.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.16.1/8f0e77db165361f4398a422be78e3fbea20403cf/bitcoinj-core-0.16.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/6.1.6/332d80ff134420db4ebf7614758e6a02a9bd3c41/spring-beans-6.1.6.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/6.1.6/b80a38400442ae3ae17e0c10ee2fbc9a31f6c6b1/spring-beans-6.1.6-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.15.4/560309fc381f77d4d15c4a4cdaa0db5025c4fd13/jackson-databind-2.15.4.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.15.4/b45d6e020c2dc43efac1fd1333a349eeafa9a8de/jackson-databind-2.15.4-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/3.2.5/6df311af4c242eb95c3526f48ab4f31c384a247e/spring-boot-starter-json-3.2.5.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/3.2.5/381ec4db3d4fbe79c9ba04dfe8733145937bc53c/spring-boot-starter-json-3.2.5-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.2.5/eec72431f6f56a50c9919129665ba3359ca02104/spring-boot-3.2.5.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.2.5/b3dbf02fd1e0cf8b1b7c6f6d489adaea7612a891/spring-boot-3.2.5-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.0.1-android/b400db548e748a1a60ba18543ad4fbb44a675a69/guava-31.0.1-android.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.0.1-android/4714c9d696a156b739ff3d48d6306e9bf25bd735/guava-31.0.1-android-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.13/80229737f704b121a318bba5d5deacbcf395bc77/slf4j-api-2.0.13.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.13/e7a3edf3c9b41ce9d4daeee609fc59cb2730f67f/slf4j-api-2.0.13-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakarta.annotation-api-2.1.1.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/3beea3ed2e687d9bd8a78c00e18951fffccefe90/jakarta.annotation-api-2.1.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.1.6/dea4b8e110b7b54a02a4907e32dbb0adee8a7168/spring-core-6.1.6.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.1.6/b7d85d2cd9cb927c6a530b84698354efdb8d8bed/spring-core-6.1.6-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.9.23/557350a0941ddfe919fd2a30d996355bebc8a3a3/kotlin-stdlib-jdk8-1.9.23.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.9.23/114750c3625f9fdfb6dd568add7b3629d2c52627/kotlin-stdlib-jdk8-1.9.23-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/net.jcip/jcip-annotations/1.0/afba4942caaeaf46aab0b976afd57cc7c181467e/jcip-annotations-1.0.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/net.jcip/jcip-annotations/1.0/d853625d8001c00d40abed553e670279504699f9/jcip-annotations-1.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/10.1.20/cc1a42b8228699e92c8eba0187eccf54bf892802/tomcat-embed-el-10.1.20.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/10.1.20/2a1a0ab07009cd23a154ef8ce35fb6f3f063d22e/tomcat-embed-el-10.1.20-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/6.1.6/49a32e3497fe39550da3b280bda5d9933ae2d51d/spring-web-6.1.6.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/6.1.6/be78ef476d499275ce288edac95b9ec512d5164f/spring-web-6.1.6-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/6.1.6/2be30298638975efaf7fff22f1570d79b2679814/spring-context-6.1.6.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/6.1.6/f887573c2b882a491ccc6e131d5f59c22950e23d/spring-context-6.1.6-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.15.4/aebe84b45360debad94f692a4074c6aceb535fa0/jackson-core-2.15.4.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.15.4/1e96cdf3ba633b07b8d3cb514e9e5d899c8965f/jackson-core-2.15.4-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/3.2.5/a40ebfa6becb35b419b37e49e33b2822e22cf42a/spring-boot-starter-tomcat-3.2.5.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/3.2.5/3d49eab8171e38e6958f5c2fc8c23adf7c81bd05/spring-boot-starter-tomcat-3.2.5-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.2/3af797a25458550a16bf89acc8e4ab2b7f2bfce0/snakeyaml-2.2.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.2/575a7915b847393207642575c139177ac2b2ac23/snakeyaml-2.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/6.1.6/84cb19b30b22feca73c2ac005ca849c5890935a3/spring-jcl-6.1.6.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/6.1.6/15e20ee1db8f458f118c9e208c6801c50f6cce77/spring-jcl-6.1.6-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.5.5/435dc33e3019c9f019e15f01aa111de9d6b2b79c/checker-compat-qual-2.5.5.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.5.5/54d4253d4d8723096a95b7551bd5639e7e2affba/checker-compat-qual-2.5.5-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.7.1/458d9042f7aa6fa9a634df902b37f544e15aacac/error_prone_annotations-2.7.1.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.7.1/2ca80bf7ac820fce6c743561b550c8bfb6c87c57/error_prone_annotations-2.7.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/3.2.5/a9837a876129cc6fe5f3abf1de5ec0a16faaf003/spring-boot-starter-3.2.5.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/3.2.5/ef9683d16ab6aa765cecffe728c569ea508a29d2/spring-boot-starter-3.2.5-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/6.1.6/9c3d7f0e17a919a4ea9f087e4e2140ad39776bc8/spring-expression-6.1.6.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/6.1.6/7abc6b227cb4f421483a3b8d5a534f9b0c0201fb/spring-expression-6.1.6-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.21.1/74c65e87b9ce1694a01524e192d7be989ba70486/log4j-api-2.21.1.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.21.1/7c87eb50e74855cd86f92bf370300b60ceef4a0b/log4j-api-2.21.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/3.2.5/664d75553c6af42122d4db645f4924a95084e382/spring-boot-starter-web-3.2.5.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/3.2.5/9b92aefad357e5ef62c11ed3e23e0daa81e5fa39/spring-boot-starter-web-3.2.5-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.15.4/694777f182334a21bf1aeab1b04cc4398c801f3f/jackson-datatype-jdk8-2.15.4.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.15.4/1d5d9f86752c0c7d0d740e4cbb8b636b2cac5e5/jackson-datatype-jdk8-2.15.4-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.9.23/dbaadea1f5e68f790d242a91a38355a83ec38747/kotlin-stdlib-1.9.23.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.9.23/a1ef32fd0bf9dea1798a1e22a1ef914707931b24/kotlin-stdlib-1.9.23-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.21.1/d77b2ba81711ed596cd797cc2b5b5bd7409d841c/log4j-to-slf4j-2.21.1.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.21.1/31272b58321454b5d5a565f1e782ed4448ab3312/log4j-to-slf4j-2.21.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.13/a3bcd9d9dd50c71ce69f06b1fd05e40fdeff6ba5/jul-to-slf4j-2.0.13.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.13/91b642c6dead52faad3a6b762607d896e143a6e3/jul-to-slf4j-2.0.13-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/3.2.5/6385a2c00a03edb896b2833e4bdee2ae53cd69b8/spring-boot-autoconfigure-3.2.5.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/3.2.5/c1d688a3c1c5c11b696790a6aafcc98aa68e53d7/spring-boot-autoconfigure-3.2.5-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/6.1.6/ef1f76db6d94bac428839cb91fa59235c8356e56/spring-webmvc-6.1.6.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/6.1.6/97171370b9aceb3e02d893d998ddfda5c0f2d747/spring-webmvc-6.1.6-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.4.14/d98bc162275134cdf1518774da4a2a17ef6fb94d/logback-classic-1.4.14.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.4.14/1b0b0b96069e3ec3b4d8e5cbffc0a56e633063de/logback-classic-1.4.14-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.12.5/da45afd81a6a05267df5ddfe10438ea857e0f7d9/micrometer-commons-1.12.5.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.12.5/b87b1a98ae6ffc9c1c953c2e1b0aebf84a8d3b5b/micrometer-commons-1.12.5-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.12.0/2f4525d4a200e97e1b87449c2cd9bd2e25b7e8cd/okhttp-4.12.0.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.12.0/ae6ec072a7ddfd4e225a36de1c185e76ebc7348d/okhttp-4.12.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/3.2.5/28cf3a346da7bb624381ccc21d7a27500181de63/spring-boot-starter-logging-3.2.5.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/3.2.5/2d73c37a0a0bb7445172e035ad001da283dc3fa9/spring-boot-starter-logging-3.2.5-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.15.4/5223ea5a9bf52cdc9c5e537a0e52f2432eaf208b/jackson-annotations-2.15.4.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.15.4/704650e6ff1479d7847d61e9d578c1c5a9951f76/jackson-annotations-2.15.4-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/10dacb8b36398debceca36cd0db5f3316967f80e/checker-qual-3.12.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/10.1.20/21502adffaf9e6e4bc2b63a557e348d7f6c0faf7/tomcat-embed-websocket-10.1.20.jar" sourcepath="/home/tomoki/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/10.1.20/ae6c5c5abe6656eaf17f053d3c7c7f4ee64a0b12/tomcat-embed-websocket-10.1.20-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
