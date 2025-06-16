@@ -36,7 +36,7 @@ public class BalanceChecker {
     }
 
     public static void main(String[] args) {
-        String address = "あなたのビットコインアドレス"; // 例: "1PMycacnJaSqwwJqjawXBErnLsZ7RkXUAs"
+        String address = "1PMycacnJaSqwwJqjawXBErnLsZ7RkXUAs"; // 例: "1PMycacnJaSqwwJqjawXBErnLsZ7RkXUAs"
         try {
             long balanceSatoshi = getBalance(address);
             double balanceBTC = balanceSatoshi / 100_000_000.0;
