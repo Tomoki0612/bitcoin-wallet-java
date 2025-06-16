@@ -3,6 +3,7 @@ package com.example.wallet;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.URI;
 import java.net.URL;
 
 import org.json.JSONObject; // Gradleで org.json ライブラリ追加が必要
@@ -11,7 +12,8 @@ public class BalanceChecker {
 
     public static long getBalance(String address) throws Exception {
         String apiUrl = "https://blockstream.info/api/address/" + address;
-        URL url = new URL(apiUrl);
+        URI uri = URI.create(apiUrl);         // 文字列からURIを作成
+        URL url = uri.toURL();                // URIからURLに変換
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("GET");
 
