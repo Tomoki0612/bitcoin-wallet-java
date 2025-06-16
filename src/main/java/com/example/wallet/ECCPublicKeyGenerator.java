@@ -3,7 +3,7 @@ package com.example.wallet;
 import java.math.BigInteger;
 import java.security.Security;
 
-import org.bouncycastle.crypto.ec.CustomNamedCurves;
+import org.bouncycastle.asn1.sec.SECNamedCurves;
 import org.bouncycastle.crypto.params.ECDomainParameters;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.math.ec.ECPoint;
@@ -14,7 +14,7 @@ public class ECCPublicKeyGenerator {
         Security.addProvider(new BouncyCastleProvider());
 
         // secp256k1パラメータを取得
-        var params = CustomNamedCurves.getByName("secp256k1");
+        var params = SECNamedCurves.getByName("secp256k1");
         var curve = params.getCurve();
         var G = params.getG();  // 基準点
         var n = params.getN();
