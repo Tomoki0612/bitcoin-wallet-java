@@ -19,7 +19,7 @@ public class WalletFileManager {
         }
     }
 
-    public static String[] loadWallet() throws IOException {
+    public  WalletData loadWallet() throws IOException {
         Properties props = new Properties();
         try (FileInputStream in = new FileInputStream(FILE_NAME)) {
             props.load(in);
@@ -27,6 +27,25 @@ public class WalletFileManager {
         String privateKey = props.getProperty("privateKey");
         String publicKey = props.getProperty("publicKey");
         String address = props.getProperty("address");
-        return new String[] { privateKey, publicKey, address };
+        return new WalletData(privateKey, publicKey, address);
     }
+
+    public WalletData generateAndSave() throws Exception {
+        PrivateKeyGenerator privGen = new PrivateKeyGenerator();
+        ECCPublicKeyGenerator pubGen = new ECCPublicKeyGenerator();
+        //AddressGenerator addressGen = new AddressGenerator();
+
+
+
+        var privateKey = privGen.getPrivateKeyHex();
+        var publicKey = pubGen.generateCompressedPublicKeyHex(privGen.getPrivateKey());
+        byte[] publicKeyBytes = ByteUtil.hexStringToByteArray(publicKey);
+        var address = AddressGenerator.generateP2PKHAddress(publicKeyBytes);
+
+        saveWallet(privateKey, publicKey, address); // staticメソッドを呼び出す
+        return new WalletData(privateKey, publicKey, address);
+
+        
+    }
+
 }
