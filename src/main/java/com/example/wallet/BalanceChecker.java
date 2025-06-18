@@ -6,14 +6,16 @@ import java.net.HttpURLConnection;
 import java.net.URI;
 import java.net.URL;
 
-import org.json.JSONObject; // Gradleで org.json ライブラリ追加が必要
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 public class BalanceChecker {
 
     public static long getBalance(String address) throws Exception {
-        String apiUrl = "https://blockstream.info/api/address/" + address;
-        URI uri = URI.create(apiUrl);         // 文字列からURIを作成
-        URL url = uri.toURL();                // URIからURLに変換
+        //String apiUrl = "https://mempool.space/api/address/" + address + "/utxo";// Mainnet API URL
+        String apiUrl = "https://mempool.space/testnet4/api/address/" + address + "/utxo";// Testnet API URL
+        URI uri = URI.create(apiUrl);
+        URL url = uri.toURL();
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("GET");
 
@@ -27,16 +29,19 @@ public class BalanceChecker {
         }
         in.close();
 
-        JSONObject json = new JSONObject(response.toString());
+        JSONArray utxos = new JSONArray(response.toString());
 
-        long funded = json.getJSONObject("chain_stats").getLong("funded_txo_sum");
-        long spent = json.getJSONObject("chain_stats").getLong("spent_txo_sum");
+        long total = 0;
+        for (int i = 0; i < utxos.length(); i++) {
+            JSONObject utxo = utxos.getJSONObject(i);
+            total += utxo.getLong("value");
+        }
 
-        return funded - spent; // 残高（satoshi）
+        return total; // satoshi
     }
 
     public static void main(String[] args) {
-        String address = "1PMycacnJaSqwwJqjawXBErnLsZ7RkXUAs"; // 例: "1PMycacnJaSqwwJqjawXBErnLsZ7RkXUAs"
+        String address = "myuU1m82E6JEbnuJAuVSPHdPk2xBHmW2oH";
         try {
             long balanceSatoshi = getBalance(address);
             double balanceBTC = balanceSatoshi / 100_000_000.0;

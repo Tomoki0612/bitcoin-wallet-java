@@ -15,9 +15,10 @@ public class AddressGenerator {
         // 2. RIPEMD-160
         byte[] ripemd160 = ripemd160(sha256);
 
-        // 3. ネットワークバイト追加（0x00 = Mainnet）
+        // 3. ネットワークバイト追加
         byte[] extendedRipemd160 = new byte[ripemd160.length + 1];
-        extendedRipemd160[0] = 0x00;
+        //extendedRipemd160[0] = 0x00; // Mainネットワークの場合は0x00を使用
+        extendedRipemd160[0] = 0x6f; // Testネットワークの場合は0x6fを使用
         System.arraycopy(ripemd160, 0, extendedRipemd160, 1, ripemd160.length);
 
         // 4. チェックサム（SHA256 x2 → 先頭4バイト）
